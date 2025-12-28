@@ -1,56 +1,88 @@
-Here’s a clean and professional HTML version of your page with a subtle, modern look suitable for a personal or internship portfolio.
-
-xml
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shikha Shetty | Data Labs Intern</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f8f9fb;
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #2c3e50;
-    }
-    .container {
-      text-align: center;
-      background: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-      padding: 40px 60px;
-      max-width: 450px;
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
-      color: #1a3c6e;
-    }
-    h2 {
-      font-size: 20px;
-      font-weight: normal;
-      color: #4b6584;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 16px;
-      color: #555;
-      line-height: 1.5;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikha Shetty - Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Hi, I’m Shikha Shetty</h1>
-    <h2>Data Labs Intern at Convin.ai</h2>
-    <p>This website is currently under maintenance.</p>
-    <p>I’ll be updating it with new content very soon.</p>
-  </div>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">Shikha Shetty</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Shikha Shetty</h1>
+            <h2>Data Analyst</h2>
+            <p>Proficient in Python, SQL, Power BI | Delivering actionable insights through data</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#resume" class="btn btn-secondary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p class="section-subtitle">Yet to create - Coming soon with real-world data analytics projects</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-placeholder">
+                        <span>📊</span>
+                    </div>
+                    <h3>Sales Dashboard</h3>
+                    <p>Interactive Power BI dashboard analyzing sales trends and customer behavior</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-placeholder">
+                        <span>🔍</span>
+                    </div>
+                    <h3>Customer Segmentation</h3>
+                    <p>ML-based customer segmentation using Python and clustering algorithms</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-placeholder">
+                        <span>📈</span>
+                    </div>
+                    <h3>Predictive Analytics</h3>
+                    <p>Forecasting models built with Python for business decision making</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Download my detailed resume showcasing experience, skills, and projects</p>
+            <div class="resume-download">
+                <a href="resume.pdf" class="btn btn-primary" download>Download Resume PDF</a>
+                <p class="resume-note">* Place your resume.pdf file in the same folder</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shikha Shetty. All rights reserved. | Mysuru, Karnataka [conversation_history:1]</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
